@@ -1,0 +1,22 @@
+html {
+  font: $font-style $font-variant $font-weight #{$font-size}/#{$line-height} $font-family;
+}
+
+// Vertically center anything
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+    display: block;
+    margin: $margins;
+    border: 1px solid $dark-color;
+    font-size: $font-size*1.5;
+    padding: $font-size/1.5;
+    border-radius: 3px;
+ background: linear-gradient(to bottom, white, black);
+    transform: scale(.5);
+
+}
